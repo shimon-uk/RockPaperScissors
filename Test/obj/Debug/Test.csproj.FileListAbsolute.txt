@@ -1,0 +1,11 @@
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\Test.dll
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\Test.pdb
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\Moq.dll
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\nunit.framework.dll
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\RockPapaerScissors.dll
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\RockPapaerScissors.pdb
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\Moq.xml
+C:\GitHub\RockPapaerScissors\Test\bin\Debug\nunit.framework.xml
+C:\GitHub\RockPapaerScissors\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\GitHub\RockPapaerScissors\Test\obj\Debug\Test.dll
+C:\GitHub\RockPapaerScissors\Test\obj\Debug\Test.pdb

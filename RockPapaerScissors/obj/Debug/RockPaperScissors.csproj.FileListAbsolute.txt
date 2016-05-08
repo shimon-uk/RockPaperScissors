@@ -1,0 +1,6 @@
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\bin\Debug\RockPapaerScissors.dll.config
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\bin\Debug\RockPapaerScissors.dll
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\bin\Debug\RockPapaerScissors.pdb
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\obj\Debug\RockPaperScissors.csprojResolveAssemblyReference.cache
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\obj\Debug\RockPapaerScissors.dll
+C:\GitHub\RockPapaerScissors\RockPapaerScissors\obj\Debug\RockPapaerScissors.pdb

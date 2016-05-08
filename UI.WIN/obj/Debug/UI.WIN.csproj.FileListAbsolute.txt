@@ -1,0 +1,11 @@
+C:\GitHub\RockPapaerScissors\UI.WIN\bin\Debug\UI.WIN.exe.config
+C:\GitHub\RockPapaerScissors\UI.WIN\bin\Debug\UI.WIN.exe
+C:\GitHub\RockPapaerScissors\UI.WIN\bin\Debug\UI.WIN.pdb
+C:\GitHub\RockPapaerScissors\UI.WIN\bin\Debug\RockPapaerScissors.dll
+C:\GitHub\RockPapaerScissors\UI.WIN\bin\Debug\RockPapaerScissors.pdb
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.csprojResolveAssemblyReference.cache
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.Form1.resources
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.Properties.Resources.resources
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.csproj.GenerateResource.Cache
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.exe
+C:\GitHub\RockPapaerScissors\UI.WIN\obj\Debug\UI.WIN.pdb
