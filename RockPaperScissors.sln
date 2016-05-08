@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPapaerScissors\RockPaperScissors.csproj", "{D8315935-ED03-4D2C-BECC-249FB2429921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F49321FA-C266-4814-AF2B-A183B4D56C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.WIN", "UI.WIN\UI.WIN.csproj", "{B477443F-6061-41FE-BF90-A605B38AE744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8315935-ED03-4D2C-BECC-249FB2429921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8315935-ED03-4D2C-BECC-249FB2429921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8315935-ED03-4D2C-BECC-249FB2429921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8315935-ED03-4D2C-BECC-249FB2429921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49321FA-C266-4814-AF2B-A183B4D56C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49321FA-C266-4814-AF2B-A183B4D56C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49321FA-C266-4814-AF2B-A183B4D56C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49321FA-C266-4814-AF2B-A183B4D56C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B477443F-6061-41FE-BF90-A605B38AE744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B477443F-6061-41FE-BF90-A605B38AE744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B477443F-6061-41FE-BF90-A605B38AE744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B477443F-6061-41FE-BF90-A605B38AE744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
