@@ -1,7 +1,8 @@
 ﻿using System;
-using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using Moq;
 using RockPaperScissors;
+using NUnit.Framework;
 
 
 namespace Test
@@ -21,7 +22,7 @@ namespace Test
         public void PlayerInstantiatesPlayerObject()
         {
             
-            Assert.IsInstanceOf<Player>(sut);
+            ClassicAssert.IsInstanceOf<Player>(sut);
         }
 
         [Test]
@@ -31,7 +32,7 @@ namespace Test
 
             sut.Type = PlayerType.Computer;
 
-            Assert.AreEqual(sut.Type, expected);
+            ClassicAssert.AreEqual(sut.Type, expected);
         }
         [Test]
         public void PlayerTypeReturnsHuman()
@@ -40,7 +41,7 @@ namespace Test
 
             sut.Type = PlayerType.Human;
 
-            Assert.AreEqual(sut.Type, expected);
+            ClassicAssert.AreEqual(sut.Type, expected);
         }
 
         [Test]
@@ -51,7 +52,7 @@ namespace Test
 
             sut.Descision = input;
 
-            Assert.AreEqual(sut.Descision, expected);
+            ClassicAssert.AreEqual(sut.Descision, expected);
         }
 
         static object[] GameOptionsData =

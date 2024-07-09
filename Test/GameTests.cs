@@ -1,8 +1,9 @@
 ﻿using System;
-using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using Moq;
 using RockPaperScissors;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Test
 {
@@ -20,7 +21,7 @@ namespace Test
         public void GameObjectisinstantiatedCorrectly()
         {
 
-            Assert.IsInstanceOf<Game>(sut);
+            ClassicAssert.IsInstanceOf<Game>(sut);
         }
 
         [Test]
@@ -28,7 +29,7 @@ namespace Test
         {
             sut.GameType=GameType.ComputerVsComputer;
 
-            Assert.AreEqual(sut.GameType, GameType.ComputerVsComputer);
+            ClassicAssert.AreEqual(sut.GameType, GameType.ComputerVsComputer);
         }
 
         [Test]
@@ -36,21 +37,21 @@ namespace Test
         {
             sut.GameType = GameType.PlayerVsComputer;
 
-            Assert.AreEqual(sut.GameType, GameType.PlayerVsComputer);
+            ClassicAssert.AreEqual(sut.GameType, GameType.PlayerVsComputer);
         }
         [Test]
         public void SelectGameSeries_Single()
         {
             sut.GameSeries = GameSeries.Single;
 
-            Assert.AreEqual(sut.GameSeries, GameSeries.Single);
+            ClassicAssert.AreEqual(sut.GameSeries, GameSeries.Single);
         }
         [Test]
         public void SelectGameSeries_Multiple()
         {
             sut.GameSeries = GameSeries.Multiple;
 
-            Assert.AreEqual(sut.GameSeries, GameSeries.Multiple);
+            ClassicAssert.AreEqual(sut.GameSeries, GameSeries.Multiple);
         }
         [Test]
         public void ConfigurePlayers()
@@ -62,7 +63,7 @@ namespace Test
 
             var result =sut.ConfigurePlayers(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.AreEqual(result.Count, 2);
+            ClassicAssert.AreEqual(result.Count, 2);
         }
         [Test]
         public void ConfigureComputerVsComputerPlayers1()
@@ -74,7 +75,7 @@ namespace Test
 
             var result = sut.ConfigurePlayers(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.AreEqual(result[0].Type, PlayerType.Computer);
+            ClassicAssert.AreEqual(result[0].Type, PlayerType.Computer);
         }
         [Test]
         public void ConfigureHumanVsComputerPlayers1()
@@ -88,7 +89,7 @@ namespace Test
 
             var result = sut.ConfigurePlayers(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.AreEqual(result[0].Type, PlayerType.Human);
+            ClassicAssert.AreEqual(result[0].Type, PlayerType.Human);
         }
         [Test]
         public void ConfigureComputerVsComputerPlayers2()
@@ -100,7 +101,7 @@ namespace Test
 
             var result = sut.ConfigurePlayers(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.AreEqual(result[1].Type, PlayerType.Computer);
+            ClassicAssert.AreEqual(result[1].Type, PlayerType.Computer);
         }
         [Test]
         public void ConfigureHumanVsComputerPlayers2()
@@ -114,7 +115,7 @@ namespace Test
 
             var result = sut.ConfigurePlayers(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.AreNotEqual(result[1].Type, PlayerType.Human);
+            ClassicAssert.AreNotEqual(result[1].Type, PlayerType.Human);
         }
 
 

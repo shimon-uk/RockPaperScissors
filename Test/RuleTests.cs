@@ -1,8 +1,9 @@
 ﻿using System;
-using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using Moq;
 using RockPaperScissors;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Test
 {
@@ -20,7 +21,7 @@ namespace Test
         public void RulesObjectReturnsRules()
         {
 
-            Assert.IsInstanceOf<Rule>(sut);
+            ClassicAssert.IsInstanceOf<Rule>(sut);
         }
 
         [Test]
@@ -28,7 +29,7 @@ namespace Test
         {
             sut.Winner = GameOptions.Rock;
 
-            Assert.IsInstanceOf<GameOptions>(sut.Winner);
+            ClassicAssert.IsInstanceOf<GameOptions>(sut.Winner);
         }
 
         [Test]
@@ -36,7 +37,7 @@ namespace Test
         {
             sut.Losser = GameOptions.Scissors;
 
-            Assert.IsInstanceOf<GameOptions>(sut.Losser);
+            ClassicAssert.IsInstanceOf<GameOptions>(sut.Losser);
         }
 
         [Test]
@@ -47,7 +48,7 @@ namespace Test
 
             var sut = new Rule(GameOptions.Rock , expected);
 
-             Assert.AreEqual(sut.Losser,expected);
+             ClassicAssert.AreEqual(sut.Losser,expected);
         }
         [Test]
         public void RuleWinnerPassesGameOption_Winner()
@@ -56,7 +57,7 @@ namespace Test
 
             var sut = new Rule(expected, GameOptions.Scissors);
 
-            Assert.AreEqual(sut.Winner, expected);
+            ClassicAssert.AreEqual(sut.Winner, expected);
         }
         [Test]
         public void RuleWinnerReturnsGameOption_Winner()
@@ -65,7 +66,7 @@ namespace Test
 
             sut.Winner = expected;
 
-            Assert.AreEqual(sut.Winner, expected);
+            ClassicAssert.AreEqual(sut.Winner, expected);
         }
         [Test]
         public void RuleLosserReturnsGameOption_Losser()
@@ -74,7 +75,7 @@ namespace Test
 
             sut.Losser = expected;
 
-            Assert.AreEqual(sut.Losser, expected);
+            ClassicAssert.AreEqual(sut.Losser, expected);
         }
   
         [Test]
@@ -88,7 +89,7 @@ namespace Test
             var sut = new Rule(winner, losser);
             
 
-            Assert.AreEqual(sut.ToString(), expected);
+            ClassicAssert.AreEqual(sut.ToString(), expected);
         }
 
         [OneTimeTearDown]

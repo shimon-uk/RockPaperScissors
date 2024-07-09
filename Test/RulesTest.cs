@@ -1,8 +1,9 @@
 ﻿using System;
-using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using Moq;
 using RockPaperScissors;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Test
 {
@@ -15,7 +16,7 @@ namespace Test
 
             var sut = Rules.RulesCollection;
            
-            Assert.IsInstanceOf<List<IRule>>(sut);
+            ClassicAssert.IsInstanceOf<List<IRule>>(sut);
 
         }
        
