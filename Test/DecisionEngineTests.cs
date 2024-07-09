@@ -1,7 +1,8 @@
 ﻿using System;
-using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using Moq;
 using RockPaperScissors;
+using NUnit.Framework;
 
 namespace Test
 {
@@ -23,7 +24,7 @@ namespace Test
         [Test]
         public void DescisonEngineObjectIsInstantiatedDescisonEngineObject()
         {
-            Assert.IsInstanceOf<DecisionEngine>(sut);
+           ClassicAssert.IsInstanceOf<DecisionEngine>(sut);
         }
 
         [Test]
@@ -32,7 +33,7 @@ namespace Test
 
             var actual = sut.Decide(mockPlayer1.Object, mockPlayer2.Object);
 
-            Assert.IsInstanceOf<DecisionEngine>(actual);
+            ClassicAssert.IsInstanceOf<DecisionEngine>(actual);
         }
 
 
@@ -46,7 +47,7 @@ namespace Test
             var actual = sut.Decide(mockPlayer1.Object, mockPlayer2.Object);
             
 
-            Assert.AreEqual(actual.ToString(), expected);
+            ClassicAssert.AreEqual(actual.ToString(), expected);
         }
         [Test]
         public void DecisiionEngineObjectReturnsCorrectFormattedString_Player1Won()
@@ -58,7 +59,7 @@ namespace Test
             var actual = sut.Decide(mockPlayer1.Object, mockPlayer2.Object);
 
 
-            Assert.AreEqual(actual.ToString(), expected);
+            ClassicAssert.AreEqual(actual.ToString(), expected);
         }
 
         [Test]
@@ -71,7 +72,7 @@ namespace Test
             var actual = sut.Decide(mockPlayer1.Object, mockPlayer2.Object);
 
 
-            Assert.AreEqual(actual.ToString(), expected);
+            ClassicAssert.AreEqual(actual.ToString(), expected);
         }
 
         [OneTimeTearDown]

@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F49321FA-C266-4814-AF2B-A183B4D56C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.WIN", "UI.WIN\UI.WIN.csproj", "{B477443F-6061-41FE-BF90-A605B38AE744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI.WIN", "UI.WIN\UI.WIN.csproj", "{B477443F-6061-41FE-BF90-A605B38AE744}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
